@@ -1,0 +1,3 @@
+student name : Steff Burgering
+student number : 630890
+student class : inf1Sc

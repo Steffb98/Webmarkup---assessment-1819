@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href='css/style.css' type="text/css">
+<link rel="shortcut icon" href='img/favicon.ico' type="image/ico">
+
+	<head>		
+		<meta charset = "utf-8">
+		<meta name="viewport" content="width=device-width">
+		<meta name="author" content="Steff Burgering">
+		<meta name="Description" content="Board and console games for all ages">
+		<meta name="keywords" content="boardgames, console, mobile, all ages">		
+		<title>Games 'n Stuff | Contact</title>		
+	</head>
+	<body>
+		<header>			
+			<h1 id="companyname">Games 'n Stuff</h1>
+			<img src="img/companylogoBG.jpg" id="headerimg">
+		</header>
+		
+		<nav class="container">
+			<ul>
+				<li><a href="contact.html">Home</a></li>
+				<li><a href="product.html">Products</a></li>				
+				<li><a href="http://www.blogger.com">Blog</a></li>				
+			</ul>
+		</nav>
+			
+		<section>
+			<content class="container">
+				<h1 class="contenttext" id="contacttext">Contact</h1>				
+			</content>
+		</section>
+		
+		<form action="nowhere.php" method="post" id="contactform">
+			
+			<h1>More information</h1>			
+			<fieldset>
+				<label >Select topic</label>
+				<select id="topicset">
+					<option value="general">General inquiries</option>
+					<option value="press">Press relations</option>
+					<option value="recruitement">Recruitement</option>
+				</select>
+			</fieldset>
+			<fieldset class="contactFormFieldset">
+				<input class="forminfo"
+						type="text"
+						name="contactFormName"
+						placeholder="Your name.."
+				/>
+			</fieldset>
+			<fieldset class="contactFormFieldset">
+				<input class="forminfo"
+						type="email"
+						name="email"
+						placeholder="Your email.."
+				/>
+			</fieldset>
+			<fieldset id="formtext">
+				<textarea
+						rows="7"
+						cols="40"
+						name="message"
+						placeholder="Write something.."
+				></textarea>
+			</fieldset>
+			<input id="button"
+					type="submit"
+					value="Submit"
+			/>
+		</form>
+		
+		<footer>
+			<p>&copy; 2019 - Steff Burgering - Inholland</p>
+		</footer>
+	</body>
+</html>
